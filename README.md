@@ -1,13 +1,12 @@
 # mail-service-api
 This is mail service which combine two 3th party APIs  for sending mails via net - sendGrid and mailGun. Main purpose of that service is of course sending mails.
 
-
 # Getting Started
 
 What hasn't been done?
 
 - not sharing app on Heroku etc. no dockerization ... -> sorry about that , unfortunetly clock was ticking for me.
-It means that to test app, you need your own apiKey and domain for those 3th party API's -> whispering: or you can just contact me - GitGuradian doesn't hear... :) 
+It means that to test app, You need your own apiKey and domain for those 3th party API's -> whispering: or You can just contact me - GitGuardian doesn't hear... :) 
 
 - front-end is reduced to just silly "Welcome" -> all prints logs are in the console
 
@@ -43,15 +42,29 @@ I just want to mention here:
 
 # Installing
 
-to get all necessary libraries just do those command on the console:
+To get all necessary libraries just do those command on the console:
 
+go get github.com/tkanos/gonfig 
+
+go get gopkg.in/mgo.v2
+
+go get github.com/gorilla/mux
+
+go get github.com/afex/hystrix-go/hystrix
+
+go get "github.com/mailgun/mailgun-go"
+	
+go get "github.com/sendgrid/sendgrid-go"
 
 
 # Built With
-IDEA Goland 2.3
-Dropwizard - The web framework used
-Maven - Dependency Management
-ROME - Used to generate RSS Feeds
+IDEA Goland 2.3 -> golang IDE
+mgo.v2 -> mongoDB driver
+tkanos/gonfig -> JSON based configuration 
+gorilla/mux -> package for simpler web handlers and routers
+hystrix-go/hystrix -> circuit breaker pattern package
+mailgun-go -> API mailGun for sending mails
+sendgrid-go -> API sendGrid for sending mails
 
 # Author
 Eryk Panter
