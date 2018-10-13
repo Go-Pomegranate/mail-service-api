@@ -35,9 +35,9 @@ What has been done?
 
 I just want to mention here:
 
-**that I am Golang beginner and came from Java World, where some place are different and code smells in Go are not code smells in Java. 
+**I am Golang beginner and came from Java World( ~2 yrs commercial), where some place looks a little bit different than in Golang. 
 
-**Pretty much time I lost on structurizing the project directories to be not ashamed of it as much.
+**Most of the time I lost on structurizing the project directories to be not ashamed of it as much. Probably it's still messy, but doesn't look like DDD purist or Java geek. Tried to fit golang style.
 
 
 # Installing
