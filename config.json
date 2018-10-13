@@ -1,8 +1,8 @@
 {
   "ServerURL":"mongodb://localhost:27017",
   "MongoDBName": "mongoDB",
-  "SendGridApiKey": "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",
-  "MailGunDomainURL": "sandboxdf5be3d8493a4c6e89ed2cb5ed724f65.mailgun.org",
-  "MailGunApiKey": "e6deea8c4301d05106cf3bfea9d1ee87-bd350f28-915f9a85"
+  "SendGridApiKey": "",
+  "MailGunDomainURL": "",
+  "MailGunApiKey": ""
 }
 
