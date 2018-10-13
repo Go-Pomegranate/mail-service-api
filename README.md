@@ -1,5 +1,5 @@
 # mail-service-api
-This is mail service which combine two 3th party APIs  for sending mails via net - sendGrid and mailGun. Main purpose of that service is of course sending mails.
+This is mail service which combine two 3th party APIs for sending mails via net - sendGrid and mailGun. Main purpose of that service is to create services from those API's and jump between them in case of the failover.
 
 # Getting Started
 
