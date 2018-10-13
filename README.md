@@ -58,12 +58,19 @@ go get "github.com/sendgrid/sendgrid-go"
 
 
 # Built With
+
 IDEA Goland 2.3 -> golang IDE
+
 mgo.v2 -> mongoDB driver
+
 tkanos/gonfig -> JSON based configuration 
+
 gorilla/mux -> package for simpler web handlers and routers
+
 hystrix-go/hystrix -> circuit breaker pattern package
+
 mailgun-go -> API mailGun for sending mails
+
 sendgrid-go -> API sendGrid for sending mails
 
 # Author
